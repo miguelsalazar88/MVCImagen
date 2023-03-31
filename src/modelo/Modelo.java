@@ -10,6 +10,5 @@ public class Modelo {
 
     public Modelo(Ventana ventana) {
         this.ventana = ventana;
-        this.rnd = new Random();
     }
 }

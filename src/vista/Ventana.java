@@ -1,6 +1,7 @@
 package vista;
 import controlador.Controller;
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JButton;
 
 public class Ventana extends JFrame {
 
@@ -10,7 +11,7 @@ public class Ventana extends JFrame {
 
     public Ventana(){
         this.setSize(1200,750);
-        this.setTitle("MVC que carga una imagen."):
+        this.setTitle("MVC que carga una imagen.");
         this.initComponents();
         this.setLayout(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
