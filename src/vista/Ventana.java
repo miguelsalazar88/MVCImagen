@@ -1,11 +1,11 @@
 package vista;
-
+import controlador.Controller;
 import javax.swing.*;
 
 public class Ventana extends JFrame {
 
     private Panel panel = new Panel();
-    private Controlador controller;
+    private Controller controller;
     private final JButton botonPintar = new JButton("Cargar Imagen");
 
     public Ventana(){
@@ -22,5 +22,10 @@ public class Ventana extends JFrame {
         this.add(botonPintar);
         this.botonPintar.setBounds(275,500,150,30);
 
+    }
+
+    public void setController(Controller controller){
+        this.controller = controller;
+        this.botonPintar.addActionListener(this.controller);
     }
 }
