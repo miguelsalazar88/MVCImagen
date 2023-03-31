@@ -1,11 +1,11 @@
-package Vista;
+package vista;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class Ventana extends JFrame {
 
     private Panel panel = new Panel();
+    private Controlador controller;
     private final JButton botonPintar = new JButton("Cargar Imagen");
 
     public Ventana(){
