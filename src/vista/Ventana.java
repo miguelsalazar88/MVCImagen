@@ -18,6 +18,8 @@ public class Ventana extends JFrame {
         this.setVisible(true);
     }
 
+
+    // incializacion de componentes
     private void initComponents() {
         this.add(panel);
         this.add(botonPintar);
